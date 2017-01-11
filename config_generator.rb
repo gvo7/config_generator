@@ -45,7 +45,7 @@ when "juniper-bgp"
     generate_vars_juniper_bgp()
     vars_generated = true
 else
-  puts "You gave me #{options[:template]} -- I have no idea what to do with that."
+  abort "You gave me #{options[:template]} as template option -- I have no idea what to do with that."
 end
 
 
