@@ -1,0 +1,4 @@
+hostname %{hostname}
+!
+interface %{mgmtinterface}
+description %{assettag} %{serialnumber}

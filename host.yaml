@@ -1,0 +1,6 @@
+device:
+   - hostname: uk-lon-tenant1-ir-01
+     assettag: 1234001
+     serialnumber: FQX3423DSS3
+     mgmt:
+       - interface: GigabitEthernet0
